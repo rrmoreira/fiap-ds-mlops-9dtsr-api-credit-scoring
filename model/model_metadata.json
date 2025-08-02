@@ -1,0 +1,7 @@
+{
+  "model_name": "credit-scoring-model",
+  "version": "2",
+  "run_id": "9fb9bd9355f445af85c49c0b499e51e3",
+  "source": "mlflow-artifacts:/a13a12126d67478588e03dcde0482475/9fb9bd9355f445af85c49c0b499e51e3/artifacts/model",
+  "downloaded_at": "2025-08-02T20:10:18.463812"
+}
