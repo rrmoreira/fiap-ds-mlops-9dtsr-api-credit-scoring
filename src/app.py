@@ -125,7 +125,7 @@ def handler(event, context=False):
             context (object, optional): Contexto da execução (opcional).
             
             Returns:
-                json: predicao do score "0 -  Good, 1 -  Standard, 2 -  Poor".
+                json: predicao do score "0 -  Good(Boa), 1 -  Poor(Ruim), 2 -  Standard(Padrão)".
     """
 
     print(event)
@@ -147,9 +147,10 @@ def handler(event, context=False):
         
     data_processed = prepare_payload(data)
     
+    print(data_processed)
+    
     prediction = model.predict([data_processed])
    
-    
     prediction = int(prediction[0])
     print(f"Prediction: {prediction}")
      

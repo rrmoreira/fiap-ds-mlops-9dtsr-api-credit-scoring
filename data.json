@@ -1,0 +1,23 @@
+{
+    "data" : {
+        "age": 32,
+        "annual_income": 600000,
+        "monthly_inhand_salary": 50000,
+        "num_bank_accounts": 3,
+        "num_credit_card": 2,
+        "interest_rate": 12,
+        "num_of_loan": 2,
+        "delay_from_due_date": 4,
+        "num_of_delayed_payment": 1,
+        "changed_credit_limit": 20000,
+        "num_credit_inquiries": 1,
+        "credit_mix": "good",
+        "outstanding_debt": 150000,
+        "credit_utilization_ratio": 35.0,
+        "payment_of_min_amount": "yes",
+        "total_emi_per_month": 8000,
+        "amount_invested_monthly": 10000,
+        "payment_behaviour": "high_spent_small_value_payments",
+        "monthly_balance": 20000
+    }
+}
